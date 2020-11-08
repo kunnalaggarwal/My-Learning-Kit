@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 03.
+  Author: Amir H Chinaei
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 3 - My Kit </title>
+  <!-- in Ex1, add a link tag here to connect it to the css file -->
+  <link rel="stylesheet" href="myLearningKit.css" type="text/css">
+
+  <!-- in Ex2, add a script tag here to connect it to the js file -->
+  <script src="myLearningKit.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1> My Computational Thinking Kit </h1>
+    <nav>
+      <!-- In Ex2, add an attribute onclick to button-->
+      <!-- In Ex4, add an attribute onclick to button-->
+      <button onclick="Ex1()">If number is prime</button>
+      <button onclick="Ex2()">Equal sums</button>
+      <button onclick="Ex3()">primes</button>
+      <button onclick="Ex4()">primes with 7</button>
+      <button onclick="Ex5()">prime with digit prime</button>
+      <button onclick="Ex6()">seperate digits</button>
+      <button onclick="Ex7()">number of 7s</button>
+      <button onclick="Ex8()">sum of digits</button>
+      <button onclick="Ex9()">reverse?</button>
+      <button onclick="Ex10()">Factorial</button>
+      <button onclick="Ex11()">Fabonacci Series</button>
+      <button onclick="Ex12()">pyramid</button>
+      <button onclick="Ex13()">Prime factors</button>
+      <button onclick="Ex14()">area</button>
+      <button onclick="Ex15()">roots</button>
+      <button onclick="Ex16()">number of roots</button>
+      <button onclick="Ex17()">positive or negative</button>
+      <button onclick="Ex18()">divisible by 6</button>
+      <button onclick="Ex19()">maximum number</button>
+      <button onclick="Ex20()">binary to decimal</button>
+    </nav>
+  </header>
+
+  <div id="problem" class="problem">
+    <p id="output"></p>
+  </div>
+  <div class="column1 design">
+    <!-- in Ex3, add an attribute onclick to the following input-->
+    <input id="check1" type="checkbox" onclick="checkUncheck1()"/> Design
+
+    <!-- in Ex5, add attributes onclick and ondblclick to the following img-->
+    <img id="flowchart" src="null" alt="null"" />
+  </div>
+  <div class="column2 jsSolution">
+    <input id="check2" type="checkbox" onclick="checkUncheck2()"/> JavaScript Solution
+    <img id="js" src="null" alt="null" />
+  </div>
+  <div class="column3 otherSolution">
+    <input id="check3" type="checkbox" /> Another Solution
+    <img id="another" src="null" alt="null" />
+  </div>
+
+  <footer>(c) Author of this web page: <span>
+      <!--In Ex 1, replace your name here-->your name here</span> </footer>
+</body>
+
+</html>
